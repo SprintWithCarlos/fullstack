@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Nodejs backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Marchena",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
