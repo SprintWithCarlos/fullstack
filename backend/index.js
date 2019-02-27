@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const multer = require("multer");
 //Inicializaciones
 const app = express();
-
+require('./database');
 //Configuraciones
 app.set('port', 3000);
 

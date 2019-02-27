@@ -22,3 +22,7 @@ Inicializa servidor
 Las rutas están creadas con el enrutador de Express, la primera es api/books
 
 Hemos definido también cuál es el archivo estático ("public")
+
+## Vídeo #5 Database - Mongoose
+
+Configuración Base de Datos MongoDB y Creación del modelo Book con Mongoose
