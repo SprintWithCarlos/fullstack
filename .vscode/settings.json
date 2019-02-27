@@ -1,0 +1,61 @@
+{
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.quickSuggestionsDelay": 500,
+  "editor.letterSpacing": 0.5,
+  "editor.fontSize": 16,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontWeight": "400",
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": true,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80, 100],
+  "editor.minimap.showSlider": "always",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  // WES TURN THIS BACK ON
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.autoIndent": true,
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": true,
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "window.zoomLevel": 0,
+  "editor.parameterHints.enabled": true
+}
