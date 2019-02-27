@@ -4,7 +4,8 @@
   "description": "Nodejs backend",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=production node index.js"
   },
   "author": "Carlos Marchena",
   "license": "MIT",

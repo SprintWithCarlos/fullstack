@@ -1,12 +1,21 @@
+if (process.env.NODE_ENV !== "production") {
+  require('dotenv').config();
+}
+
+
+
+
 const express = require("express");
 const path = require("path");
 const morgan = require("morgan");
 const multer = require("multer");
+
+require('cross-env')
 //Inicializaciones
 const app = express();
 require('./database');
 //Configuraciones
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 
 //Middlewares
 app.use(morgan("dev"));
@@ -30,5 +39,5 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Arrancar el servidor
 app.listen(app.get('port'), () => {
-  console.log("Servidor escuchando en puerto 3000")
+  console.log(`Servidor escuchando en puerto ${app.get('port')}`)
 })
